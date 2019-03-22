@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>RPGGame</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <h1>Battle Royale!</h1>
+            </div>
+        </div>
+        <div class="row charRow1">
+            <div class="col-md-12 d-flex justify-content-around">
+                <div class="char" name="Pikachu" health="260" attackR = '10' attack = '3' enemyAttack = 20 speed = 3200><span class="name">Pikachu</span><img
+                        src="images/Pikachu.png"><span class="health">260</span></div>
+                <div class="char" name="Charmander" health="200" attackR = '2' attack = '6' enemyAttack = 35 speed = 4500><span class="name">Charmander</span><img
+                        src="images/Charmander.png"><span class="health">200</span></div>
+                <div class="char" name="Bulbasaur" health="280" attackR = '4' attack = '3' enemyAttack = 10 speed = 2000><span class="name">Bulbasaur</span><img
+                        src="images/Bulbasaur.png"><span class="health">280</span></div>
+                <div class="char" name="Squirtle" health="240" attackR = '12' attack = '3' enemyAttack = 20 speed = 3000><span class="name">Squirtle</span><img
+                        src="images/Squirtle.png"><span class="health">240</span></div>
+            </div>
+        </div>
+        <div class="row charRow2">
+            <div class="col-md-12 d-flex justify-content-around">
+                <div class="char" name="Jigglypuff" health="250" attackR = '15' attack = '0' enemyAttack = 5 speed = 600><span class="name">Jigglypuff</span><img
+                        src="images/Jigglypuff.png"><span class="health">250</span></div>
+                <div class="char" name="Eevee" health="220" attackR = '5' attack = '5' enemyAttack = 3 speed = 400><span class="name">Eevee</span><img
+                        src="images/Eevee.png"><span class="health">220</span></div>
+                <div class="char" name="Snorlax" health="280" attackR = '3' attack = '3' enemyAttack = 50 speed = 6000><span class="name">Snorlax</span><img
+                        src="images/Snorlax.png"><span class="health">280</span></div>
+                <div class="char" name="Piplup" health="150" attackR = '15' attack = '0' enemyAttack = 10 speed = 900><span class="name">Piplup</span><img
+                        src="images/Piplup.png"><span class="health">150</span></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h1>You</h1>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <h1>Enemy</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div name="" health="" charImage="" class='Empty' id="PlayerZone"><span class="name"></span><img
+                            src="images/Empty.png"><span class="health"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <div id="EnemyZone" class="Empty" name="" health="" charImage=""><span class="name"></span><img
+                            src="images/Empty.png"><span class="health"></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="javascript/java.js">
+
+    </script>
+</body>

@@ -1,0 +1,74 @@
+body{
+    background-image: url("../images/bg.jpg");
+    background-size: 100%;
+}
+.container{
+    background-color: aquamarine;
+    background: rgba(91, 116, 131, 0.445); 
+}
+h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+img{
+    height: 150px;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.name{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 2px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.empty{
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+}
+.health{
+    position: absolute;
+    display: flex;
+    top:87%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.char{
+    display: flex;
+    justify-content: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+    background-color: aquamarine;
+    background: rgba(91, 116, 131, 0.664); 
+}
+.activeChar{
+    display: flex;
+    justify-content: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: red;
+    background-color: aquamarine;
+    background: rgba(91, 116, 131, 0.664); 
+}
+.charRow1{
+    height: 170px;
+    margin-bottom: 35px;
+}
+.charRow2{
+    height: 170px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.floatingNumber{
+    position: absolute;
+    z-index: 10;
+    top: 80px;
+    font-weight: bold;
+    font-size: 32px;
+    color:red;
+
+}
